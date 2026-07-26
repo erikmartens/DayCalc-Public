@@ -1,0 +1,50 @@
+name: Feature request
+description: Suggest a user need or improvement for DayCalc.
+title: "Feature: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the user need and outcome first. Implementation ideas are welcome but optional.
+  - type: textarea
+    id: need
+    attributes:
+      label: User need
+      description: What problem or recurring task should DayCalc address?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What would a successful experience look like?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feature area
+      options:
+        - Calendar
+        - Deadlines and notifications
+        - Calculations
+        - Settings, appearance, or language
+        - About, legal, or support
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround or alternatives
+      description: Explain how you handle this need today, if applicable.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing public issues for a similar request.
+          required: true
+

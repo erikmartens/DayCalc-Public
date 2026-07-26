@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support
+    url: https://github.com/erikmartens/DayCalc-Public/blob/main/SUPPORT.md
+    about: Read how to request support when private information is involved.
+  - name: Security reports
+    url: https://github.com/erikmartens/DayCalc-Public/blob/main/SECURITY.md
+    about: Do not disclose security or privacy vulnerabilities publicly.
+
