@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.0
-Last updated: 2026-07-26
+Version: 1.1
+Last updated: 2026-07-27
 -->
 
 # Privacy Policy
@@ -17,9 +17,9 @@ Last updated: 2026-07-26
 
 
 
-**Version:** 1.0
+**Version:** 1.1
 
-**Last updated:** 2026-07-26
+**Last updated:** 2026-07-27
 
 ## 1. Overview
 
@@ -50,9 +50,9 @@ When you expressly export an event or deadline to your calendar, DayCalc gives t
 
 If you enable reminders, DayCalc may schedule local notifications for your deadlines. Notification requests and their content are managed on the device by iOS. DayCalc does not use remote push notifications for this feature. You can change notification permission at any time in iOS Settings.
 
-## 6. Diagnostics
+## 6. Diagnostics And Error Reporting
 
-DayCalc may create bounded technical diagnostics locally to handle errors and migration of existing data safely. The current app configuration does not send analytics or crash reports to the developer. Sensitive calendar or deadline content is not intentionally included in diagnostics.
+DayCalc may create bounded technical diagnostics locally to handle errors and migration of existing data safely. If Firebase Crashlytics is available in the distributed App, automatic crash and error reporting is enabled by default and can be changed at any time in Privacy or Help. If the Firebase configuration is absent, reporting remains unavailable and disabled. DayCalc does not use Firebase Analytics for product-usage tracking. Sensitive calendar or deadline content is not intentionally included in diagnostics. Google may process technical reports under its applicable terms.
 
 ## 7. Support and External Services
 
