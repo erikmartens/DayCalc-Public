@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.0
-Last updated: 2026-07-26
+Version: 1.1
+Last updated: 2026-07-27
 -->
 
 # Datenschutzerklärung
@@ -17,9 +17,9 @@ Last updated: 2026-07-26
 
 
 
-**Version:** 1.0
+**Version:** 1.1
 
-**Zuletzt aktualisiert:** 2026-07-26
+**Zuletzt aktualisiert:** 2026-07-27
 
 ## 1. Überblick
 
@@ -50,9 +50,9 @@ Wenn Sie ausdrücklich ein Ereignis oder eine Deadline in Ihren Kalender exporti
 
 Wenn Sie Erinnerungen aktivieren, kann DayCalc lokale Benachrichtigungen für Ihre Deadlines planen. Die Benachrichtigungsanfragen und deren Inhalt werden auf dem Gerät durch iOS verwaltet. DayCalc verwendet für diese Funktion keine Remote-Push-Benachrichtigungen. Die Benachrichtigungsberechtigung kann jederzeit in den iOS-Einstellungen geändert werden.
 
-## 6. Diagnose
+## 6. Diagnose- und Fehlerberichte
 
-DayCalc kann begrenzte technische Diagnoseinformationen lokal erzeugen, um Fehler und die Migration vorhandener Daten sicher zu behandeln. Die derzeitige App-Konfiguration sendet keine Analyse- oder Absturzberichte an den Entwickler. Sensible Kalender- oder Deadline-Inhalte werden nicht absichtlich in Diagnosemeldungen aufgenommen.
+DayCalc kann begrenzte technische Diagnoseinformationen lokal erzeugen, um Fehler und die Migration vorhandener Daten sicher zu behandeln. Wenn Firebase Crashlytics in der verteilten App verfügbar ist, ist das automatische Senden von Absturz- und Fehlerberichten standardmäßig aktiviert und kann jederzeit unter Datenschutz oder Hilfe geändert werden. Fehlt die Firebase-Konfiguration, ist die Berichterstattung nicht verfügbar und bleibt deaktiviert. DayCalc verwendet Firebase Analytics nicht zur Erfassung der Produktnutzung. Sensible Kalender- oder Deadline-Inhalte werden nicht absichtlich in Diagnosemeldungen aufgenommen. Google kann technische Berichte gemäß den geltenden Bestimmungen verarbeiten.
 
 ## 7. Support und externe Dienste
 
