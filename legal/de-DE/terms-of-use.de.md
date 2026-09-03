@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.0
-Last updated: 2026-07-26
+Version: 1.1
+Last updated: 2026-09-04
 -->
 
 # Nutzungsbedingungen
@@ -17,41 +17,41 @@ Last updated: 2026-07-26
 
 
 
-**Version:** 1.0
+**Version:** 1.1
 
-**Zuletzt aktualisiert:** 2026-07-26
+**Zuletzt aktualisiert:** 2026-09-04
 
 ## 1. Überblick
 
-Diese Nutzungsbedingungen regeln Ihre Nutzung von DayCalc ("die App"). Die App stellt eine mobile Oberfläche für Kalenderereignisse, app-eigene Deadlines, Erinnerungen, Countdowns und Datumsberechnungen bereit.
+Diese Nutzungsbedingungen regeln Ihre Nutzung von DayCalc ("die App"). Die App stellt eine mobile Oberfläche für Kalenderereignisse, Apple Erinnerungen, Deadlines aus früheren DayCalc-Versionen, Countdowns und Datumsberechnungen bereit.
 
 ## 2. Datenschutz
 
-Ihre Nutzung der App unterliegt ebenfalls der DayCalc-Datenschutzerklärung. Sie beschreibt, wie die App lokale Daten, Kalenderzugriff, Benachrichtigungen, Support-Kommunikation und externe Dienste behandelt.
+Ihre Nutzung der App unterliegt ebenfalls der DayCalc-Datenschutzerklärung. Sie beschreibt, wie die App lokale Daten, den Zugriff auf Kalender und Erinnerungen, Benachrichtigungen, Support-Kommunikation und externe Dienste behandelt.
 
-## 3. Kalenderdaten und Berechtigungen
+## 3. Kalender- und Erinnerungsdaten und Berechtigungen
 
-Einige Funktionen benötigen Kalender- oder Benachrichtigungsberechtigungen. Sie können diese Berechtigungen in den iOS-Einstellungen verwalten. Wenn eine Berechtigung, ein Kalenderkonto oder ein Systemdienst nicht verfügbar ist, können zugehörige Funktionen eingeschränkt oder nicht verfügbar sein.
+Einige Funktionen benötigen Kalender-, Erinnerungs- oder Benachrichtigungsberechtigungen. Sie können diese Berechtigungen in den iOS-Einstellungen verwalten. Wenn eine Berechtigung, ein Konto oder ein Systemdienst nicht verfügbar ist, können zugehörige Funktionen eingeschränkt oder nicht verfügbar sein.
 
-Kalenderdaten und synchronisierte Kalenderdienste werden von Apple oder dem jeweiligen Kontenanbieter verwaltet. DayCalc garantiert nicht die Verfügbarkeit, Synchronisierung oder Richtigkeit externer Kalenderdaten.
+Kalender- und Erinnerungsdaten sowie deren synchronisierte Dienste werden von Apple oder dem jeweiligen Kontenanbieter verwaltet. DayCalc garantiert nicht die Verfügbarkeit, Synchronisierung oder Richtigkeit externer Kalender- oder Erinnerungsdaten.
 
 ## 4. Verantwortung des Nutzers
 
 Durch die Nutzung der App stimmen Sie zu, dass:
 
-- Sie berechtigt sind, auf die verbundenen Kalender und Konten zuzugreifen und diese zu verändern
-- Sie Ereignis- und Deadline-Daten vor dem Speichern oder Exportieren prüfen
-- Sie für die von Ihnen erstellten Deadlines, Erinnerungen und Kalenderänderungen verantwortlich sind
+- Sie berechtigt sind, auf die verbundenen Kalender, Erinnerungslisten und Konten zuzugreifen und diese zu verändern
+- Sie Ereignis-, Erinnerungs- und Deadline-Daten vor dem Speichern, Übernehmen oder Exportieren prüfen
+- Sie für die von Ihnen erstellten Erinnerungen, Deadlines und Kalenderänderungen verantwortlich sind
 - Sie Erinnerungen und Countdown-Angaben nicht als alleinige Grundlage für sicherheitskritische, medizinische, rechtliche, finanzielle oder andere risikoreiche Entscheidungen verwenden
 - Sie die App nicht für rechtswidrige Zwecke verwenden
 
 ## 5. Benachrichtigungen und Zeitberechnungen
 
-Benachrichtigungen können durch Geräteeinstellungen, Fokusmodi, Energiestatus, Systemverhalten oder Änderungen an Daten und Zeitzonen verzögert oder unterdrückt werden. Datums-, Kalenderwochen- und Countdown-Ergebnisse dienen als Hilfsmittel und sollten bei wichtigen Entscheidungen eigenständig geprüft werden.
+Benachrichtigungen und Erinnerungsalarme können durch Geräteeinstellungen, Fokusmodi, Energiestatus, Systemverhalten oder Änderungen an Daten und Zeitzonen verzögert oder unterdrückt werden. Datums-, Kalenderwochen- und Countdown-Ergebnisse dienen als Hilfsmittel und sollten bei wichtigen Entscheidungen eigenständig geprüft werden.
 
 ## 6. Externe Dienste und Links
 
-Die App kann Apple-Kalenderfunktionen, iOS-Systemoberflächen, Websites, GitHub oder E-Mail-Programme öffnen. DayCalc ist nicht für Inhalte, Verfügbarkeit, Datenschutzpraktiken oder Bedingungen externer Dienste verantwortlich.
+Die App kann Funktionen von Apple Kalender und Erinnerungen, iOS-Systemoberflächen, Websites, GitHub oder E-Mail-Programme öffnen. DayCalc ist nicht für Inhalte, Verfügbarkeit, Datenschutzpraktiken oder Bedingungen externer Dienste verantwortlich.
 
 ## 7. Geistiges Eigentum
 
@@ -62,18 +62,18 @@ Die App, ihr Design, ihr Code und ihre nicht von Dritten stammenden Inhalte geh�
 Die App wird "wie besehen" und "wie verfügbar" ohne Gewährleistung jeglicher Art bereitgestellt. Es wird insbesondere nicht garantiert:
 
 - ununterbrochene Verfügbarkeit oder fehlerfreier Betrieb
-- Zustellung jeder Benachrichtigung zu einem bestimmten Zeitpunkt
-- Kompatibilität mit jedem Gerät, Kalenderkonto oder jeder Systemkonfiguration
-- Vollständigkeit oder Richtigkeit externer Kalenderdaten
+- Zustellung jeder Benachrichtigung oder jedes Erinnerungsalarms zu einem bestimmten Zeitpunkt
+- Kompatibilität mit jedem Gerät, Kalender- oder Erinnerungskonto oder jeder Systemkonfiguration
+- Vollständigkeit oder Richtigkeit externer Kalender- oder Erinnerungsdaten
 
 ## 9. Haftungsbeschränkung
 
 Soweit gesetzlich zulässig, haftet der Entwickler nicht für Schäden, die entstehen durch:
 
-- verspätete, unterdrückte oder nicht zugestellte Benachrichtigungen
-- unrichtige, unvollständige oder nicht synchronisierte Kalenderdaten
+- verspätete, unterdrückte oder nicht zugestellte Benachrichtigungen oder Erinnerungsalarme
+- unrichtige, unvollständige oder nicht synchronisierte Kalender- oder Erinnerungsdaten
 - Geräte-, Konto-, Berechtigungs-, Netzwerk- oder Konfigurationsprobleme
-- Datenverlust oder vom Nutzer bestätigte Kalenderänderungen
+- Datenverlust oder vom Nutzer bestätigte Kalender- und Erinnerungsänderungen
 - Nutzung der App in sicherheitskritischen oder anderen risikoreichen Situationen
 - externe Websites, Support-Werkzeuge oder Dienste Dritter
 
