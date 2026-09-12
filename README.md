@@ -33,6 +33,11 @@ Please search existing issues before opening a new one. Do not post personal
 calendar information, email addresses, diagnostic archives, screenshots
 containing private events, or other sensitive material in a public issue.
 
+## Contact
+
+For support, privacy or legal questions, email
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+
 ## Legal Documents
 
 The reviewed public documents are generated from the same localized source used

@@ -80,7 +80,3 @@ Soweit gesetzlich zulässig, haftet der Entwickler nicht für Schäden, die ents
 ## 10. Änderungen an App und Bedingungen
 
 Funktionen und Integrationen können hinzugefügt, geändert, ausgesetzt oder eingestellt werden. Diese Bedingungen können entsprechend aktualisiert werden. Die fortgesetzte Nutzung der App nach Bereitstellung aktualisierter Bedingungen gilt als Annahme der aktualisierten Bedingungen.
-
-## 11. Kontakt
-
-Bei Fragen kontaktieren Sie: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

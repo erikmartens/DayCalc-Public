@@ -80,7 +80,3 @@ To the extent permitted by law, the developer will not be liable for damages ari
 ## 10. Changes to the App and Terms
 
 Features and integrations may be added, modified, suspended, or discontinued. These Terms may be updated accordingly. Continued use of the App after updated Terms become available constitutes acceptance of the updated Terms.
-
-## 11. Contact
-
-For questions, contact: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

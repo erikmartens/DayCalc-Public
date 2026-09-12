@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.2
-Last updated: 2026-09-04
+Version: 1.3
+Last updated: 2026-09-06
 -->
 
 # Datenschutzerklärung
@@ -17,9 +17,9 @@ Last updated: 2026-09-04
 
 
 
-**Version:** 1.2
+**Version:** 1.3
 
-**Zuletzt aktualisiert:** 2026-09-04
+**Zuletzt aktualisiert:** 2026-09-06
 
 ## 1. Überblick
 
@@ -47,7 +47,9 @@ Wenn Sie Kalenderzugriff erlauben, liest DayCalc die für die ausgewählten Funk
 
 Wenn Sie den Zugriff auf Erinnerungen erlauben, liest und schreibt DayCalc Ihre Erinnerungen über EventKit: Liste, Titel, Notizen, URL, Ort, Beginn und Fälligkeit, Priorität, Abschlussstatus, Alarme und Wiederholungsregeln der Erinnerungen, die Sie in DayCalc ansehen oder bearbeiten. iOS gewährt den Zugriff auf Erinnerungen nur als vollen Zugriff. DayCalc verwendet ihn ausschließlich, um Erinnerungen anzuzeigen, zu erstellen, abzuschließen, zu bearbeiten und zu löschen, wenn Sie dies in der App tun. Erinnerungen verbleiben im von iOS verwalteten Erinnerungsbestand; DayCalc kopiert den Erinnerungsbestand nicht in eine eigene dauerhafte Datenbank.
 
-DayCalc wertet Kalender- oder Erinnerungsinhalte nicht für Analysen, Diagnosen, Produktentscheidungen oder Support aus. Ihre Inhalte bleiben auf Ihrem Gerät und werden von DayCalc niemals analysiert oder hochgeladen.
+Wenn Sie in DayCalc nach einem Erinnerungsort suchen, sendet DayCalc den von Ihnen eingegebenen Suchtext über MapKit an Apples Kartendienst, um passende Orte und Adressen abzurufen. DayCalc fordert für diese Suche nicht den aktuellen Standort Ihres Geräts an. Wenn Sie ein Ergebnis auswählen, schreibt DayCalc dessen Namen, Koordinaten sowie die gewählte Ankunfts- oder Verlassen-Bedingung über EventKit in die Erinnerung. Apple verarbeitet die Suchanfrage nach seinen Datenschutzbestimmungen.
+
+DayCalc wertet Kalender- oder Erinnerungsinhalte nicht für Analysen, Diagnosen, Produktentscheidungen oder Support aus und übermittelt bestehende Kalender- oder Erinnerungsinhalte nicht zu diesen Zwecken. Nur die oben beschriebene, von Ihnen gestartete Ortssuche sendet den von Ihnen eingegebenen Suchtext an Apple Maps, damit Suchergebnisse bereitgestellt werden können.
 
 Wenn Sie ausdrücklich ein Ereignis in Ihren Kalender exportieren oder eine Deadline in Apple Erinnerungen übernehmen, übergibt DayCalc die von Ihnen bestätigten Werte an EventKit. Kalender- und Erinnerungskonten sowie deren synchronisierte Dienste werden von Apple oder dem jeweiligen Kontenanbieter verwaltet und unterliegen deren Datenschutzbestimmungen. Die Berechtigungen für Kalender und Erinnerungen können jederzeit in den iOS-Einstellungen geändert werden.
 
@@ -63,7 +65,7 @@ DayCalc kann begrenzte technische Diagnoseinformationen lokal erzeugen, um Fehle
 
 Wenn Sie den Support per E-Mail oder über GitHub kontaktieren, werden Ihre Nachricht und alle Informationen, die Sie freiwillig beifügen, von dem jeweiligen externen Dienst verarbeitet. Fügen Sie keine Informationen bei, die Sie nicht teilen möchten.
 
-DayCalc kann Websites, E-Mail-Programme, GitHub oder iOS-Systemoberflächen öffnen. Diese externen Dienste liegen außerhalb der Kontrolle von DayCalc und unterliegen ihren eigenen Datenschutzbestimmungen.
+DayCalc kann die Suche von Apple Maps verwenden oder Websites, E-Mail-Programme, GitHub oder iOS-Systemoberflächen öffnen. Diese externen Dienste liegen außerhalb der Kontrolle von DayCalc und unterliegen ihren eigenen Datenschutzbestimmungen.
 
 ## 8. Aufbewahrung und Löschung
 
@@ -80,7 +82,3 @@ DayCalc richtet sich nicht gezielt an Kinder und sammelt wissentlich keine perso
 ## 11. Änderungen
 
 Diese Datenschutzerklärung kann aktualisiert werden, wenn sich Funktionen oder Datenverarbeitung ändern. Die aktuelle Fassung wird in der App und in den öffentlichen rechtlichen Dokumenten bereitgestellt.
-
-## 12. Kontakt
-
-Bei Datenschutzfragen kontaktieren Sie: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.2
-Last updated: 2026-09-04
+Version: 1.3
+Last updated: 2026-09-06
 -->
 
 # Privacy Policy
@@ -17,9 +17,9 @@ Last updated: 2026-09-04
 
 
 
-**Version:** 1.2
+**Version:** 1.3
 
-**Last updated:** 2026-09-04
+**Last updated:** 2026-09-06
 
 ## 1. Overview
 
@@ -47,7 +47,9 @@ If you grant calendar access, DayCalc reads the calendar, event, and calendar-me
 
 If you grant Reminders access, DayCalc reads and writes your reminders through EventKit: the list, title, notes, URL, location, start and due dates, priority, completion state, alarms, and repeat rules of the reminders you view or edit in DayCalc. iOS grants Reminders access only as full access. DayCalc uses it solely to show, create, complete, edit, and delete reminders when you do so in the App. Reminders remain in the iOS-managed Reminders store; DayCalc does not copy the Reminders store into its own persistent database.
 
-DayCalc does not inspect Calendar or Reminders content for analytics, diagnostics, product decisions, or support. Their contents stay on your device and are never analyzed or uploaded by DayCalc.
+When you search for a reminder location in DayCalc, DayCalc sends the search text you enter to Apple's Maps service through MapKit to retrieve matching places and addresses. DayCalc does not request your device's current location for this search. When you select a result, DayCalc writes its name, coordinates, and your chosen arriving or leaving condition to the reminder through EventKit. Apple processes the search request under its privacy terms.
+
+DayCalc does not inspect Calendar or Reminders content for analytics, diagnostics, product decisions, or support, and does not transmit existing Calendar or Reminders content for those purposes. Only the user-initiated reminder location search described above sends the search text you enter to Apple Maps so it can provide search results.
 
 When you expressly export an event to your calendar or move a deadline to Apple Reminders, DayCalc gives the values you confirm to EventKit. Calendar and Reminders accounts and their synchronized services are managed by Apple or the relevant account provider and are subject to their privacy terms. You can change calendar and Reminders permission at any time in iOS Settings.
 
@@ -63,7 +65,7 @@ DayCalc may create bounded technical diagnostics locally to handle errors and mi
 
 If you contact support by email or through GitHub, your message and any information you voluntarily attach are processed by the relevant external service. Do not include information you do not want to share.
 
-DayCalc may open websites, email applications, GitHub, or iOS system interfaces. These external services are outside DayCalc's control and are governed by their own privacy terms.
+DayCalc may use Apple Maps search or open websites, email applications, GitHub, or iOS system interfaces. These external services are outside DayCalc's control and are governed by their own privacy terms.
 
 ## 8. Retention and Deletion
 
@@ -80,7 +82,3 @@ DayCalc is not directed specifically to children and does not knowingly collect 
 ## 11. Changes
 
 This Privacy Policy may be updated when features or data handling change. The current version will be made available in the App and in the public legal documents.
-
-## 12. Contact
-
-For privacy questions, contact: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
