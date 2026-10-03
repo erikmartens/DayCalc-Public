@@ -1,6 +1,6 @@
 # DayCalc
 
-DayCalc is an iPhone utility for working with calendars, deadlines, and date
+DayCalc is an iPhone utility for working with calendars, reminders, and date
 calculations. This repository is the public information, legal-document,
 support, and issue-tracking home for the app.
 
@@ -13,10 +13,16 @@ credentials, internal diagnostics, or private planning material.
 DayCalc is being rebuilt for iOS 17 and later with:
 
 - a calendar overview based on user-authorized Apple Calendar access;
-- app-owned deadlines and local reminders;
+- Apple Reminders integration for viewing and editing reminders and lists;
+- a Today overview combining upcoming events and reminders;
 - distance, addition, and weekday/date calculations;
 - appearance and language preferences;
 - first-class light and dark mode support.
+
+This describes the version under development, not an announcement of App Store
+availability. New tasks use Apple Reminders; legacy DayCalc Deadlines have a
+separate migration/archive journey. Calendar and Reminder alerts are delivered
+by the corresponding system apps.
 
 Calendar information is projected when needed rather than copied wholesale
 into DayCalc persistence. DayCalc does not require an account, advertising
