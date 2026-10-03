@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.3
-Last updated: 2026-09-06
+Version: 1.4
+Last updated: 2026-10-03
 -->
 
 # Privacy Policy
@@ -17,9 +17,9 @@ Last updated: 2026-09-06
 
 
 
-**Version:** 1.3
+**Version:** 1.4
 
-**Last updated:** 2026-09-06
+**Last updated:** 2026-10-03
 
 ## 1. Overview
 
@@ -39,17 +39,19 @@ DayCalc may store the following information locally on your device:
 - calendar visibility, appearance, language, and other app preferences
 - technical state needed for the app installation and the one-time migration of existing DayCalc data
 
+If access to a calendar or reminder list becomes unavailable while you are editing, you can choose to save a recovery draft on your device. The draft may contain the values you entered and the original values needed to check for conflicting edits, such as titles, notes, dates, list or calendar identifiers, URLs and locations. Opening a draft does not automatically save it to Calendar or Reminders. You can delete a draft; after a confirmed successful submission, DayCalc attempts to remove it and may retain it for cleanup if removal fails. Drafts with an unresolved save outcome remain on the device without automatically repeating the save. These drafts are not a copy of your Calendar or Reminders database and are not uploaded to a DayCalc server.
+
 This app data is not uploaded to a DayCalc server for the App to operate.
 
 ## 4. Calendar and Reminders Access
 
-If you grant calendar access, DayCalc reads the calendar, event, and calendar-metadata values needed by the selected features through Apple's EventKit framework. Calendar data remains in the iOS-managed calendar store; DayCalc does not copy the entire calendar store into its own persistent database.
+If you grant calendar access, DayCalc reads the calendar, event, and calendar-metadata values needed by the selected features and writes the changes you confirm through Apple's EventKit framework. Calendar data remains in the iOS-managed calendar store; DayCalc does not copy the entire calendar store into its own persistent database.
 
-If you grant Reminders access, DayCalc reads and writes your reminders through EventKit: the list, title, notes, URL, location, start and due dates, priority, completion state, alarms, and repeat rules of the reminders you view or edit in DayCalc. iOS grants Reminders access only as full access. DayCalc uses it solely to show, create, complete, edit, and delete reminders when you do so in the App. Reminders remain in the iOS-managed Reminders store; DayCalc does not copy the Reminders store into its own persistent database.
+If you grant Reminders access, DayCalc reads and writes your reminders through EventKit: the list, title, notes, URL, location, start and due dates, priority, completion state, alarms, and repeat rules of the reminders you view or edit in DayCalc. iOS grants Reminders access only as full access. DayCalc uses it solely to show, create, complete, edit, and delete reminders when you do so in the App. Reminders remain in the iOS-managed Reminders store; DayCalc does not copy the Reminders store into its own persistent database. The recovery drafts described above may retain individual edited values and their original baselines locally.
 
-When you search for a reminder location in DayCalc, DayCalc sends the search text you enter to Apple's Maps service through MapKit to retrieve matching places and addresses. DayCalc does not request your device's current location for this search. When you select a result, DayCalc writes its name, coordinates, and your chosen arriving or leaving condition to the reminder through EventKit. Apple processes the search request under its privacy terms.
+When you search for a calendar event or reminder location in DayCalc, DayCalc sends the search text you enter to Apple's Maps service through MapKit to retrieve matching places and addresses. DayCalc does not request your device's current location for this search. When you save, the selected place can be written to the event or reminder through EventKit, including an arriving or leaving condition for a reminder if you choose one. Apple processes the search request under its privacy terms.
 
-DayCalc does not inspect Calendar or Reminders content for analytics, diagnostics, product decisions, or support, and does not transmit existing Calendar or Reminders content for those purposes. Only the user-initiated reminder location search described above sends the search text you enter to Apple Maps so it can provide search results.
+DayCalc does not inspect Calendar or Reminders content for analytics, diagnostics, product decisions, or support, and does not transmit existing Calendar or Reminders content for those purposes. The user-initiated address search described above sends the search text you enter to Apple Maps. Map previews for event and reminder locations also use Apple Maps to display the relevant area; they do not request your device's current location.
 
 When you expressly export an event to your calendar or move a deadline to Apple Reminders, DayCalc gives the values you confirm to EventKit. Calendar and Reminders accounts and their synchronized services are managed by Apple or the relevant account provider and are subject to their privacy terms. You can change calendar and Reminders permission at any time in iOS Settings.
 
@@ -69,7 +71,7 @@ DayCalc may use Apple Maps search or open websites, email applications, GitHub, 
 
 ## 8. Retention and Deletion
 
-You can remove remaining deadlines, calculation history, and preferences through available App controls. Deleting the App removes app data stored locally by DayCalc, subject to normal iOS backup behavior. Events exported to Apple Calendar are not automatically deleted and must be managed in Calendar. Reminders you create in DayCalc or move from deadlines live in Apple Reminders; DayCalc deletes them only when you delete them in the App, and they otherwise remain manageable in Reminders.
+You can remove recovery drafts, remaining deadlines, calculation history, and preferences through available App controls. Deleting the App removes app data stored locally by DayCalc, subject to normal iOS backup behavior. Events exported to Apple Calendar are not automatically deleted and must be managed in Calendar. Reminders you create in DayCalc or move from deadlines live in Apple Reminders; DayCalc deletes them only when you delete them in the App, and they otherwise remain manageable in Reminders.
 
 ## 9. Security
 
