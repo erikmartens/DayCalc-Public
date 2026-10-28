@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.4
-Last updated: 2026-10-03
+Version: 1.5
+Last updated: 2026-10-28
 -->
 
 # Privacy Policy
@@ -17,9 +17,9 @@ Last updated: 2026-10-03
 
 
 
-**Version:** 1.4
+**Version:** 1.5
 
-**Last updated:** 2026-10-03
+**Last updated:** 2026-10-28
 
 ## 1. Overview
 
@@ -59,11 +59,21 @@ When you expressly export an event to your calendar or move a deadline to Apple 
 
 If you selected notification times for deadlines in an earlier DayCalc version, DayCalc may schedule local notifications for those deadlines until you move or export them. Notification requests and their content are managed on the device by iOS. DayCalc does not use remote push notifications for this feature. Alarms of Apple Reminders are delivered by iOS Reminders, not by DayCalc. You can change notification permission at any time in iOS Settings.
 
-## 6. Diagnostics And Error Reporting
+## 6. Diagnostics and Error Reporting
 
-DayCalc may create bounded technical diagnostics locally to handle errors and migration of existing data safely. If Firebase Crashlytics is available in the distributed App, automatic crash and error reporting is enabled by default and can be changed at any time in Privacy or Help. If the Firebase configuration is absent, reporting remains unavailable and disabled. DayCalc does not use Firebase Analytics for product-usage tracking. Sensitive calendar, reminder, or deadline content is not intentionally included in diagnostics. Google may process technical reports under its applicable terms.
+DayCalc keeps a bounded technical error log on your device to investigate failures. Entries include the time, an error category and code, a fixed operation name, device model, operating-system version, and app version/build. Local crash entries can include system-delivered crash codes and limited build/symbolication information. iOS controls whether and when these crash reports become available; the log is not a complete record of every crash. DayCalc excludes the contents you enter, calendar/reminder/communication contents, raw error messages, file paths, URLs, device names, and user or installation identifiers from its own log entries.
+
+The local history retains at most 512 entries and 1 MiB of encoded log data, plus database overhead. Entries older than seven days are removed on the next log write or read. Logging remains available when automatic reporting is disabled. In the error-reporting scene you can open a readable JSON report. Creating this report also reads total and available device storage, if available, to help diagnose storage failures. This storage snapshot is included only in the report you choose to view or attach; DayCalc does not add it to automatic error submissions.
+
+If Firebase Crashlytics is available in the distributed App, automatic reporting is enabled by default. You can turn it off in Privacy or Help. New app-reported errors are then withheld; restart the App as indicated to stop an already configured Firebase runtime completely. If Firebase is unavailable or its configuration is absent, automatic reporting remains disabled. Turning reporting off does not delete reports already sent to Google.
+
+When enabled, the sanitized app-reported errors are also sent to Firebase Crashlytics. Crashlytics separately captures native crashes and its own technical context, including stack traces, exception information, device/OS/app information, and memory or storage state. Firebase uses its own Crashlytics installation UUID, Firebase installation ID and session identifiers to process these reports. These reports are therefore not described as fully anonymous. DayCalc supplies no user ID, advertising ID, account profile or additional installation identifier, and does not create cross-app or cross-device tracking. It does not use Firebase Analytics to track product usage.
+
+Google processes Crashlytics reports to diagnose and improve stability. Its documented retention period for crash traces and associated identifiers is 90 days before removal begins. Further details are available in [Firebase Privacy and Security](https://firebase.google.com/support/privacy) and [Firebase's Apple-platform data disclosures](https://firebase.google.com/docs/ios/app-store-data-collection). Firebase's own crash capture is separate from the filtered local log; do not assume both contain identical information.
 
 ## 7. Support and External Services
+
+Before opening the support email composer, DayCalc asks whether to attach the diagnostic JSON report. You can attach it, continue without it, or cancel. No email is sent automatically. An attached report includes the technical information and current storage snapshot described above; your email also reveals the sender address you use. Review the report and your message before sending.
 
 If you contact support by email or through GitHub, your message and any information you voluntarily attach are processed by the relevant external service. Do not include information you do not want to share.
 
