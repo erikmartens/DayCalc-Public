@@ -73,7 +73,7 @@ Google verarbeitet Crashlytics-Berichte zur Fehleranalyse und Verbesserung der S
 
 ## 7. Support und externe Dienste
 
-Vor dem Öffnen einer Support-E-Mail fragt DayCalc, ob der JSON-Diagnosebericht angehängt werden soll. Sie können ihn anhängen, ohne ihn fortfahren oder abbrechen. Es wird keine E-Mail automatisch gesendet. Ein angehängter Bericht enthält die oben beschriebenen technischen Informationen und aktuellen Speicherangaben; Ihre E-Mail enthält außerdem die von Ihnen verwendete Absenderadresse. Prüfen Sie Bericht und Nachricht vor dem Senden.
+Wenn Sie in der Ansicht zum Melden von Fehlern „E-Mail“ wählen, fragt DayCalc, ob der JSON-Diagnosebericht angehängt werden soll. Sie können ihn anhängen, ohne ihn fortfahren oder abbrechen. Es wird keine E-Mail automatisch gesendet. Ein angehängter Bericht enthält die oben beschriebenen technischen Informationen und aktuellen Speicherangaben; Ihre E-Mail enthält außerdem die von Ihnen verwendete Absenderadresse. Prüfen Sie Bericht und Nachricht vor dem Senden.
 
 Wenn Sie den Support per E-Mail oder über GitHub kontaktieren, werden Ihre Nachricht und alle Informationen, die Sie freiwillig beifügen, von dem jeweiligen externen Dienst verarbeitet. Fügen Sie keine Informationen bei, die Sie nicht teilen möchten.
 

@@ -73,7 +73,7 @@ Google processes Crashlytics reports to diagnose and improve stability. Its docu
 
 ## 7. Support and External Services
 
-Before opening the support email composer, DayCalc asks whether to attach the diagnostic JSON report. You can attach it, continue without it, or cancel. No email is sent automatically. An attached report includes the technical information and current storage snapshot described above; your email also reveals the sender address you use. Review the report and your message before sending.
+When you choose Email in the error-reporting scene, DayCalc asks whether to attach the diagnostic JSON report. You can attach it, continue without it, or cancel. No email is sent automatically. An attached report includes the technical information and current storage snapshot described above; your email also reveals the sender address you use. Review the report and your message before sending.
 
 If you contact support by email or through GitHub, your message and any information you voluntarily attach are processed by the relevant external service. Do not include information you do not want to share.
 
