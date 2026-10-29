@@ -2,7 +2,7 @@
 Generated from DayCalc app legal JSON.
 Do not edit manually.
 Version: 1.5
-Last updated: 2026-10-28
+Last updated: 2026-10-29
 -->
 
 # Datenschutzerklärung
@@ -19,7 +19,7 @@ Last updated: 2026-10-28
 
 **Version:** 1.5
 
-**Zuletzt aktualisiert:** 2026-10-28
+**Zuletzt aktualisiert:** 2026-10-29
 
 ## 1. Überblick
 
@@ -64,6 +64,8 @@ Wenn Sie in einer früheren DayCalc-Version Benachrichtigungszeiten für Deadlin
 DayCalc speichert ein begrenztes technisches Fehlerprotokoll auf Ihrem Gerät, um Fehler untersuchen zu können. Einträge enthalten Zeitpunkt, Fehlerkategorie und -code, einen fest vorgegebenen Vorgangsnamen, Gerätemodell, Betriebssystemversion sowie App-Version und Buildnummer. Lokale Absturzeinträge können vom System bereitgestellte Absturzcodes und begrenzte Informationen zur Build- und Symbolzuordnung enthalten. iOS bestimmt, ob und wann diese Absturzberichte verfügbar werden; das Protokoll erfasst nicht jeden Absturz vollständig. DayCalc schließt Ihre Eingaben, Kalender-, Erinnerungs- und Kommunikationsinhalte, ursprüngliche Fehlermeldungen, Dateipfade, URLs, Gerätenamen sowie Nutzer- oder Installationskennungen aus seinen eigenen Protokolleinträgen aus.
 
 Der lokale Verlauf umfasst höchstens 512 Einträge und 1 MiB codierte Protokolldaten zuzüglich des Datenbankaufwands. Einträge, die älter als sieben Tage sind, werden beim nächsten Schreiben oder Lesen des Protokolls entfernt. Die lokale Protokollierung bleibt auch bei ausgeschalteter automatischer Berichterstattung verfügbar. In der Ansicht zum Melden von Fehlern können Sie einen lesbaren JSON-Bericht öffnen. Beim Erstellen werden außerdem der gesamte und der verfügbare Gerätespeicher ermittelt, soweit verfügbar, um Speicherprobleme einzugrenzen. Diese Speicherangaben sind nur im Bericht enthalten, den Sie ansehen oder anhängen möchten; DayCalc fügt sie nicht zu automatischen Fehlermeldungen hinzu.
+
+Ein separater Abschnitt mit ausführlichen Diagnoseinformationen erfasst fest vorgegebene Ansichts- und Aktionskategorien mit Zeitstempeln, ausgewählte inhaltsfreie Einstellungen (etwa Ansichtsmodus und Sichtbarkeitsschalter) sowie die Anzahl von Sichtbarkeitsanpassungen. Bildschirminhalte, Suchtexte, Kalender- oder Erinnerungskennungen, ausgewählte Datumsangaben und persönliche Inhalte werden nicht erfasst. Dieser Kontext bleibt ausschließlich auf Ihrem Gerät und wird niemals an Firebase gesendet. Er umfasst höchstens 200 Einträge und 256 KiB codierte Daten; Einträge, die älter als 24 Stunden sind, werden beim nächsten Schreiben oder Lesen des Kontexts entfernt. Sobald die erste Alters-, Anzahl- oder Größengrenze erreicht wird, werden die ältesten Einträge vollständig entfernt. Kontext und Fehlerverlauf haben unabhängige Grenzen. App und Widgets teilen sich den begrenzten lokalen Fehlerverlauf; Widget-Fehler werden lokal gespeichert und später nicht durch die App hochgeladen. Ausführliche Diagnoseinformationen sind im JSON-Bericht enthalten, wenn Sie ihn ansehen oder einer E-Mail anhängen.
 
 Wenn Firebase Crashlytics in der verteilten App verfügbar ist, ist die automatische Berichterstattung standardmäßig eingeschaltet. Sie können sie unter Datenschutz oder Hilfe ausschalten. Neue von der App gemeldete Fehler werden dann nicht mehr gesendet; starten Sie die App wie angezeigt neu, um eine bereits konfigurierte Firebase-Laufzeit vollständig zu beenden. Ohne verfügbares Firebase oder dessen Konfiguration bleibt die automatische Berichterstattung deaktiviert. Durch das Ausschalten werden bereits an Google übermittelte Berichte nicht gelöscht.
 

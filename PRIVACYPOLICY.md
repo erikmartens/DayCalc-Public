@@ -2,7 +2,7 @@
 Generated from DayCalc app legal JSON.
 Do not edit manually.
 Version: 1.5
-Last updated: 2026-10-28
+Last updated: 2026-10-29
 -->
 
 # Privacy Policy
@@ -19,7 +19,7 @@ Last updated: 2026-10-28
 
 **Version:** 1.5
 
-**Last updated:** 2026-10-28
+**Last updated:** 2026-10-29
 
 ## 1. Overview
 
@@ -64,6 +64,8 @@ If you selected notification times for deadlines in an earlier DayCalc version, 
 DayCalc keeps a bounded technical error log on your device to investigate failures. Entries include the time, an error category and code, a fixed operation name, device model, operating-system version, and app version/build. Local crash entries can include system-delivered crash codes and limited build/symbolication information. iOS controls whether and when these crash reports become available; the log is not a complete record of every crash. DayCalc excludes the contents you enter, calendar/reminder/communication contents, raw error messages, file paths, URLs, device names, and user or installation identifiers from its own log entries.
 
 The local history retains at most 512 entries and 1 MiB of encoded log data, plus database overhead. Entries older than seven days are removed on the next log write or read. Logging remains available when automatic reporting is disabled. In the error-reporting scene you can open a readable JSON report. Creating this report also reads total and available device storage, if available, to help diagnose storage failures. This storage snapshot is included only in the report you choose to view or attach; DayCalc does not add it to automatic error submissions.
+
+A separate extended-diagnostics section records fixed scene and action categories with timestamps, selected non-content settings (such as view mode and visibility switches), and counts of visibility overrides. It does not record screen contents, search text, calendar or reminder identities, selected dates, or personal contents. This context is kept only on your device and is never sent to Firebase. It retains at most 200 entries and 256 KiB of encoded data; entries older than 24 hours are removed on the next context write or read. The first age, count or size limit reached removes whole oldest entries. Context and error history have independent limits. The App and its widgets share the bounded local error history; widget errors are stored locally and are not uploaded later by the App. Extended diagnostics is included in the JSON report only when you view it or choose to attach it to an email.
 
 If Firebase Crashlytics is available in the distributed App, automatic reporting is enabled by default. You can turn it off in Privacy or Help. New app-reported errors are then withheld; restart the App as indicated to stop an already configured Firebase runtime completely. If Firebase is unavailable or its configuration is absent, automatic reporting remains disabled. Turning reporting off does not delete reports already sent to Google.
 
