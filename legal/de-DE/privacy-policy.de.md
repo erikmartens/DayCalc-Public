@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.4
-Last updated: 2026-10-03
+Version: 1.5
+Last updated: 2026-10-29
 -->
 
 # Datenschutzerklärung
@@ -17,9 +17,9 @@ Last updated: 2026-10-03
 
 
 
-**Version:** 1.4
+**Version:** 1.5
 
-**Zuletzt aktualisiert:** 2026-10-03
+**Zuletzt aktualisiert:** 2026-10-29
 
 ## 1. Überblick
 
@@ -61,9 +61,21 @@ Wenn Sie in einer früheren DayCalc-Version Benachrichtigungszeiten für Deadlin
 
 ## 6. Diagnose- und Fehlerberichte
 
-DayCalc kann begrenzte technische Diagnoseinformationen lokal erzeugen, um Fehler und die Migration vorhandener Daten sicher zu behandeln. Wenn Firebase Crashlytics in der verteilten App verfügbar ist, ist das automatische Senden von Absturz- und Fehlerberichten standardmäßig aktiviert und kann jederzeit unter Datenschutz oder Hilfe geändert werden. Fehlt die Firebase-Konfiguration, ist die Berichterstattung nicht verfügbar und bleibt deaktiviert. DayCalc verwendet Firebase Analytics nicht zur Erfassung der Produktnutzung. Sensible Kalender-, Erinnerungs- oder Deadline-Inhalte werden nicht absichtlich in Diagnosemeldungen aufgenommen. Google kann technische Berichte gemäß den geltenden Bestimmungen verarbeiten.
+DayCalc speichert ein begrenztes technisches Fehlerprotokoll auf Ihrem Gerät, um Fehler untersuchen zu können. Einträge enthalten Zeitpunkt, Fehlerkategorie und -code, einen fest vorgegebenen Vorgangsnamen, Gerätemodell, Betriebssystemversion sowie App-Version und Buildnummer. Lokale Absturzeinträge können vom System bereitgestellte Absturzcodes und begrenzte Informationen zur Build- und Symbolzuordnung enthalten. iOS bestimmt, ob und wann diese Absturzberichte verfügbar werden; das Protokoll erfasst nicht jeden Absturz vollständig. DayCalc schließt Ihre Eingaben, Kalender-, Erinnerungs- und Kommunikationsinhalte, ursprüngliche Fehlermeldungen, Dateipfade, URLs, Gerätenamen sowie Nutzer- oder Installationskennungen aus seinen eigenen Protokolleinträgen aus.
+
+Der lokale Verlauf umfasst höchstens 512 Einträge und 1 MiB codierte Protokolldaten zuzüglich des Datenbankaufwands. Einträge, die älter als sieben Tage sind, werden beim nächsten Schreiben oder Lesen des Protokolls entfernt. Die lokale Protokollierung bleibt auch bei ausgeschalteter automatischer Berichterstattung verfügbar. In der Ansicht zum Melden von Fehlern können Sie einen lesbaren JSON-Bericht öffnen. Beim Erstellen werden außerdem der gesamte und der verfügbare Gerätespeicher ermittelt, soweit verfügbar, um Speicherprobleme einzugrenzen. Diese Speicherangaben sind nur im Bericht enthalten, den Sie ansehen oder anhängen möchten; DayCalc fügt sie nicht zu automatischen Fehlermeldungen hinzu.
+
+Ein separater Abschnitt mit ausführlichen Diagnoseinformationen erfasst fest vorgegebene Ansichts- und Aktionskategorien mit Zeitstempeln, ausgewählte inhaltsfreie Einstellungen (etwa Ansichtsmodus und Sichtbarkeitsschalter) sowie die Anzahl von Sichtbarkeitsanpassungen. Bildschirminhalte, Suchtexte, Kalender- oder Erinnerungskennungen, ausgewählte Datumsangaben und persönliche Inhalte werden nicht erfasst. Dieser Kontext bleibt ausschließlich auf Ihrem Gerät und wird niemals an Firebase gesendet. Er umfasst höchstens 200 Einträge und 256 KiB codierte Daten; Einträge, die älter als 24 Stunden sind, werden beim nächsten Schreiben oder Lesen des Kontexts entfernt. Sobald die erste Alters-, Anzahl- oder Größengrenze erreicht wird, werden die ältesten Einträge vollständig entfernt. Kontext und Fehlerverlauf haben unabhängige Grenzen. App und Widgets teilen sich den begrenzten lokalen Fehlerverlauf; Widget-Fehler werden lokal gespeichert und später nicht durch die App hochgeladen. Ausführliche Diagnoseinformationen sind im JSON-Bericht enthalten, wenn Sie ihn ansehen oder einer E-Mail anhängen.
+
+Wenn Firebase Crashlytics in der verteilten App verfügbar ist, ist die automatische Berichterstattung standardmäßig eingeschaltet. Sie können sie unter Datenschutz oder Hilfe ausschalten. Neue von der App gemeldete Fehler werden dann nicht mehr gesendet; starten Sie die App wie angezeigt neu, um eine bereits konfigurierte Firebase-Laufzeit vollständig zu beenden. Ohne verfügbares Firebase oder dessen Konfiguration bleibt die automatische Berichterstattung deaktiviert. Durch das Ausschalten werden bereits an Google übermittelte Berichte nicht gelöscht.
+
+Bei eingeschalteter Berichterstattung werden die gefilterten Fehlereinträge der App auch an Firebase Crashlytics gesendet. Crashlytics erfasst native Abstürze und eigenen technischen Kontext separat, darunter Aufrufstapel, Ausnahmeinformationen, Geräte-, Betriebssystem- und App-Informationen sowie Arbeitsspeicher- oder Speicherzustand. Firebase verwendet seine eigene Crashlytics-Installations-UUID, Firebase-Installations-ID und Sitzungskennungen zur Verarbeitung. Diese Berichte werden deshalb nicht als vollständig anonym bezeichnet. DayCalc übermittelt keine Nutzer-ID, Werbe-ID, Kontoprofile oder zusätzliche Installationskennung und erstellt kein app- oder geräteübergreifendes Tracking. Firebase Analytics wird nicht zur Erfassung der Produktnutzung eingesetzt.
+
+Google verarbeitet Crashlytics-Berichte zur Fehleranalyse und Verbesserung der Stabilität. Laut Google beträgt die Aufbewahrungsfrist für Absturzinformationen und zugehörige Kennungen 90 Tage, bevor die Löschung beginnt. Einzelheiten finden Sie unter [Datenschutz und Sicherheit bei Firebase](https://firebase.google.com/support/privacy) und in [Firebases Angaben zu Apple-Plattformen](https://firebase.google.com/docs/ios/app-store-data-collection). Firebases eigene Absturzerfassung ist vom gefilterten lokalen Protokoll getrennt; beide enthalten daher nicht zwingend dieselben Informationen.
 
 ## 7. Support und externe Dienste
+
+Wenn Sie in der Ansicht zum Melden von Fehlern „E-Mail“ wählen, fragt DayCalc, ob der JSON-Diagnosebericht angehängt werden soll. Sie können ihn anhängen, ohne ihn fortfahren oder abbrechen. Es wird keine E-Mail automatisch gesendet. Ein angehängter Bericht enthält die oben beschriebenen technischen Informationen und aktuellen Speicherangaben; Ihre E-Mail enthält außerdem die von Ihnen verwendete Absenderadresse. Prüfen Sie Bericht und Nachricht vor dem Senden.
 
 Wenn Sie den Support per E-Mail oder über GitHub kontaktieren, werden Ihre Nachricht und alle Informationen, die Sie freiwillig beifügen, von dem jeweiligen externen Dienst verarbeitet. Fügen Sie keine Informationen bei, die Sie nicht teilen möchten.
 

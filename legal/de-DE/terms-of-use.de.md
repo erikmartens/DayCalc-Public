@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-09-04
+Version: 1.2
+Last updated: 2026-10-28
 -->
 
 # Nutzungsbedingungen
@@ -17,9 +17,9 @@ Last updated: 2026-09-04
 
 
 
-**Version:** 1.1
+**Version:** 1.2
 
-**Zuletzt aktualisiert:** 2026-09-04
+**Zuletzt aktualisiert:** 2026-10-28
 
 ## 1. Überblick
 
@@ -28,6 +28,8 @@ Diese Nutzungsbedingungen regeln Ihre Nutzung von DayCalc ("die App"). Die App s
 ## 2. Datenschutz
 
 Ihre Nutzung der App unterliegt ebenfalls der DayCalc-Datenschutzerklärung. Sie beschreibt, wie die App lokale Daten, den Zugriff auf Kalender und Erinnerungen, Benachrichtigungen, Support-Kommunikation und externe Dienste behandelt.
+
+Technische Diagnosen helfen bei der Untersuchung von Fehlern; sie garantieren weder deren Erkennung oder Behebung noch eine Support-Antwort. Lokale Protokolle werden nur begrenzt aufbewahrt; systemseitige Absturzberichte können verspätet oder gar nicht verfügbar sein. Sie steuern die automatische Berichterstattung in der App und entscheiden, ob Sie Protokolle an eine Support-E-Mail anhängen. Prüfen Sie Anhänge vor dem Senden; Verarbeitung, Aufbewahrung und Firebase-Kennungen sind in der Datenschutzerklärung beschrieben.
 
 ## 3. Kalender- und Erinnerungsdaten und Berechtigungen
 

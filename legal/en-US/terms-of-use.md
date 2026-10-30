@@ -1,8 +1,8 @@
 <!--
 Generated from DayCalc app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-09-04
+Version: 1.2
+Last updated: 2026-10-28
 -->
 
 # Terms of Use
@@ -17,9 +17,9 @@ Last updated: 2026-09-04
 
 
 
-**Version:** 1.1
+**Version:** 1.2
 
-**Last updated:** 2026-09-04
+**Last updated:** 2026-10-28
 
 ## 1. Overview
 
@@ -28,6 +28,8 @@ These Terms of Use govern your use of DayCalc ("the App"). The App provides a mo
 ## 2. Privacy
 
 Your use of the App is also subject to the DayCalc Privacy Policy, which describes how the App handles local data, calendar and Reminders access, notifications, support communication, and external services.
+
+Technical diagnostics help investigate faults; they do not guarantee detection, recovery, or a support response. Local log retention is limited, and system crash-report delivery can be delayed or unavailable. You control automatic reporting in the App and choose whether to attach logs to a support email. Review attachments before sending; their processing, retention and Firebase identifiers are described in the Privacy Policy.
 
 ## 3. Calendar and Reminders Data and Permissions
 
